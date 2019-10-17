@@ -5,13 +5,27 @@
     
 }
 header {
-    width: 99%;
+    position: absolute;
+    top: 200; left: 4%;
+    margin: 4px;
+    width: 90%;
     border: 10px solid rgb(136, 207, 209);
     background-color: #492cca;
 }
+#intro{
+    position: absolute;
+    top: 120px; left: 30%;
+    margin: auto;
+    width: 500px;
+    font-size: larger;
+    color: rgb(2, 0, 10);
+    border: rgb(58, 43, 153) 4px solid;
+    background: rgb(101, 120, 182);
+    padding: 15px;
+}
 main {
-    border: 10px solid rgb(43, 83, 170);
-    background-color: #b3abd8;
+    /* border: 10px solid rgb(43, 83, 170); */
+    /* background-color: #b3abd8; */
     width: 99%;
 }
 table {
@@ -39,39 +53,75 @@ article {
     background: rgb(161, 161, 219);
     
 }
-/* .consultbox {
-    margin: 2px;
-    float: left;
-    border: 5px crimson;
-}
-.consultbox h3 {
-    color: crimson;
-} */
+
 img {
     border: 4px solid rgb(60, 60, 201);
     width: 200px;
     height: 200px;
 }
+.clock{
+    text-align:center;
+    width:auto;
+    height:auto;
+}
 #dataBox {
     color: rgb(8, 8, 24);
     position: absolute;
-    top: 200px; left: 20px;
+    top: 340px; left: 20px;
     float: left;
     width: 630px;
     height: auto;
     background: rgba(47, 120, 150, 0.726);
 }
 #dataBox p {
-    width
+    
+    font-size: larger;
+    color: rgb(2, 0, 10);
+    border: rgb(58, 43, 153) 4px solid;
+    background: rgb(101, 120, 182);
+    padding: 15px;
+    width: 350px;
+    height: 170px;
+    position: absolute;
+    top: 10%; left: 222px;
+}
+#dataBox h3{
+    position: absolute;
+    top: auto; left: 12px;
+    color: rgb(72, 114, 148);
+    padding: 4px;
+    background: black;
+    border-radius: 30%;
+    border: 2px solid;
 }
 #consultBox {
     color: rgb(8, 8, 24);
     position: absolute;
-    top: 430px; left: 690px;
-    float: right;
+    top: 450px; left: 690px;
     width: 630px;
     height: auto;
     background: rgba(47, 120, 150, 0.726);
+}
+#consultBox p {
+    
+    font-size: larger;
+    color: rgb(2, 0, 10);
+    border: rgb(58, 43, 153) 4px solid;
+    background: rgb(101, 120, 182);
+    padding: 15px;
+    width: 350px;
+    height: 170px;
+    position: absolute;
+    top: 10%; left: 222px;
+}
+#consultBox h3{
+    position: absolute;
+    top: auto; left: 33px;
+    color: rgb(72, 114, 148);
+    padding: 4px;
+    background: black;
+    border-radius: 30%;
+    border: 2px solid;
 }
 #reportBox {
     color: rgb(8, 8, 24);
@@ -81,6 +131,27 @@ img {
     width: 630px;
     height: auto;
     background: rgba(47, 120, 150, 0.726);
+}
+#reportBox p {
+    
+    font-size: larger;
+    color: rgb(2, 0, 10);
+    border: rgb(58, 43, 153) 4px solid;
+    background: rgb(101, 120, 182);
+    padding: 15px;
+    width: 350px;
+    height: 170px;
+    position: absolute;
+    top: 10%; left: 222px;
+}
+#reportBox h3{
+    position: absolute;
+    top: auto; left: 49px;
+    color: rgb(72, 114, 148);
+    padding: 4px;
+    background: black;
+    border-radius: 30%;
+    border: 2px solid;
 }
 body{
     background-image: url(images/construction.jpg);
