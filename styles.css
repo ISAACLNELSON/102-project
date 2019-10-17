@@ -64,14 +64,24 @@ img {
     width:auto;
     height:auto;
 }
+#data-button {
+    border-radius: 40%;
+    border: 10px solid rgb(47, 121, 150);
+    font-size: xx-large;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top:410px; left: 65px;
+}
 #dataBox {
+    display: none;
     color: rgb(8, 8, 24);
     position: absolute;
     top: 340px; left: 20px;
     float: left;
     width: 630px;
     height: auto;
-    background: rgba(47, 120, 150, 0.726);
+    background: rgb(47, 121, 150);
 }
 #dataBox p {
     
@@ -94,13 +104,23 @@ img {
     border-radius: 30%;
     border: 2px solid;
 }
+#con-button {
+    border-radius: 40%;
+    border: 10px solid rgb(47, 121, 150);
+    font-size: xx-large;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top:480px; left: 710px;
+}
 #consultBox {
+    display: none;
     color: rgb(8, 8, 24);
     position: absolute;
     top: 450px; left: 690px;
     width: 630px;
     height: auto;
-    background: rgba(47, 120, 150, 0.726);
+    background: rgb(47, 121, 150);
 }
 #consultBox p {
     
@@ -123,14 +143,24 @@ img {
     border-radius: 30%;
     border: 2px solid;
 }
+#rep-button {
+    border-radius: 40%;
+    border: 10px solid rgb(47, 121, 150);
+    font-size: xx-large;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top:680px; left: 85px;
+}
 #reportBox {
+    display: none;
     color: rgb(8, 8, 24);
     position: absolute;
     top: 590px; left: 20px;
     float: left;
     width: 630px;
     height: auto;
-    background: rgba(47, 120, 150, 0.726);
+    background: rgb(47, 121, 150);
 }
 #reportBox p {
     
