@@ -18,10 +18,11 @@ header {
     margin: auto;
     width: 500px;
     font-size: larger;
-    color: rgb(2, 0, 10);
+    color: rgba(255, 255, 255, 0.808);
     border: rgb(58, 43, 153) 4px solid;
-    background: rgb(101, 120, 182);
-    padding: 15px;
+    background: #492cca;
+    padding: 19px;
+    border-radius: 10%;
 }
 main {
     /* border: 10px solid rgb(43, 83, 170); */
@@ -37,6 +38,9 @@ th {
     color: rgba(255, 255, 255, 0.808);
     border: 2px solid rgb(58, 152, 189);
     background: rgb(55, 59, 110);
+}
+a {
+    color: rgba(255, 255, 255, 0.808);
 }
 h1 {
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -59,14 +63,19 @@ img {
     width: 200px;
     height: 200px;
 }
+
 .clock{
     text-align:center;
     width:auto;
     height:auto;
 }
+button:hover {
+    background-color: rgb(133, 133, 133);
+    transition-duration: 0.4s;
+}
 #data-button {
+    border: 3px solid rgb(47, 121, 150);
     border-radius: 40%;
-    border: 10px solid rgb(47, 121, 150);
     font-size: xx-large;
     width: 30%;
     height: 20%;
@@ -105,8 +114,8 @@ img {
     border: 2px solid;
 }
 #con-button {
+    border: 3px solid rgb(47, 121, 150);
     border-radius: 40%;
-    border: 10px solid rgb(47, 121, 150);
     font-size: xx-large;
     width: 30%;
     height: 20%;
@@ -145,7 +154,7 @@ img {
 }
 #rep-button {
     border-radius: 40%;
-    border: 10px solid rgb(47, 121, 150);
+    border: 3px solid rgb(47, 121, 150);
     font-size: xx-large;
     width: 30%;
     height: 20%;
@@ -187,8 +196,8 @@ body{
     background-image: url(images/construction.jpg);
 }
 footer {
-    color: rgb(8, 8, 24);
-    background: rgba(47, 120, 150, 0.726);
+    color: rgba(255, 255, 255, 0.808);
+    background: rgba(47, 121, 150, 0.945);
     border: 2px solid rgb(64, 224, 208);
     position: absolute;
     top: 900px; left: 20px;

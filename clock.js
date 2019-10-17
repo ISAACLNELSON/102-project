@@ -1,7 +1,16 @@
-//get todays date
 var today = new Date();
-//get current timein hours
 var hour = today.getHours();
-//if current hour is either morning, change bg to yellow afternoon blue, or evening purple
+function borderTime(){
 
-document.write
+if(hour > 18){
+    document.getElementsByTagName('header').style.borderColor = 'purple';
+} else if(hour > 12){
+    document.getElementsByTagName('header').style.borderColor = 'blue';
+} else if (hour > 0){
+    document.getElementsByTagName('header').style.borderColor = 'orange';
+} else {
+    document.getElementsByTagName('header').style.borderColor = 'red';
+}
+}
+borderTime();
+
