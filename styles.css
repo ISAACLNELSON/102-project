@@ -206,6 +206,7 @@ footer {
     top: 900px; left: 20px;
 }
  .jsImg{
-    position: absolute;
-    top: 900px; left: 300px;
+    display: inline-block;
+    position: relative;
+    top: 1050px; left: 20px;
 }
