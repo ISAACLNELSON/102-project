@@ -77,9 +77,9 @@ button:hover {
     transition-duration: 0.4s;
 }
 #data-button {
-    border: 3px solid rgb(47, 121, 150);
-    border-radius: 40%;
-    font-size: xx-large;
+    /* border: 3px solid rgb(47, 121, 150); */
+    border-radius: 1%;
+    font-size: x-large;
     width: 30%;
     height: 20%;
     position: absolute;
@@ -117,9 +117,9 @@ button:hover {
     border: 2px solid;
 }
 #con-button {
-    border: 3px solid rgb(47, 121, 150);
-    border-radius: 40%;
-    font-size: xx-large;
+    /* border: 3px solid rgb(47, 121, 150); */
+    border-radius: 1%;
+    font-size: x-large;
     width: 30%;
     height: 20%;
     position: absolute;
@@ -156,9 +156,9 @@ button:hover {
     border: 2px solid;
 }
 #rep-button {
-    border-radius: 40%;
-    border: 3px solid rgb(47, 121, 150);
-    font-size: xx-large;
+    border-radius: 1%;
+    /* border: 3px solid rgb(47, 121, 150); */
+    font-size: x-large;
     width: 30%;
     height: 20%;
     position: absolute;
