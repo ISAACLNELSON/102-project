@@ -14,7 +14,7 @@ header {
 }
 #intro{
     position: absolute;
-    top: 120px; left: 30%;
+    top: 120px; left: 29%;
     margin: auto;
     width: 500px;
     font-size: larger;
@@ -68,6 +68,9 @@ img {
     text-align:center;
     width:auto;
     height:auto;
+}
+button {
+    color: rgb(39, 35, 35);
 }
 button:hover {
     background-color: rgb(133, 133, 133);
@@ -201,4 +204,8 @@ footer {
     border: 2px solid rgb(64, 224, 208);
     position: absolute;
     top: 900px; left: 20px;
+}
+ .jsImg{
+    position: absolute;
+    top: 900px; left: 300px;
 }

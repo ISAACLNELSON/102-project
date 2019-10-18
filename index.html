@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="text/javascript" src="clock.js"></script>
-    <script type="text/javascript" src="onClick.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +9,15 @@
     <title>Consultants LLC</title>
 </head>
 <body>
+    
+    
     <header align="center">
     <h1 >Consultants LLC</h1>
     
         <table width="97%" align="center">
             <tr>
                 <th width="200"><a href="https://enoch-strok.github.io/102-html-project/">Enoch's Site</a></th>
-                <th id="empty">Welcome!</th>
+                <th id="empty"><script>document.write(askName());</script></th>
                 <th width="200">Brent's Site</th>
             </tr>
         </table>
@@ -62,5 +63,9 @@
         <span>Address: 1234 Consulting Ave, Seattle</span>
         <p>Website by &copy;Isaac Nelson</p>
     </footer>
+    </section>
+        <p><script>document.write(showOrder());</script>
+    <section>
+        
 </body>
 </html>
